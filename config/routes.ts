@@ -36,43 +36,14 @@
 	// 	component: './RandomUser',
 	// 	icon: 'ArrowsAltOutlined',
 	// },
-	{
-		name: "Đánh giá",
-		routes: [
-			{
-				path: '/danh-gia-nhan-vien',
-				name: 'Đánh giá trung bình',
-				component: './BAI_TH_3/BAI3/NhanVien',
-				icon: 'ArrowsAltOutlined',
-			},
-			{
-				path: '/danh-gia-dich-vu',
-				name: 'Đánh giá dịch vụ',
-				component: './BAI_TH_3/BAI3/DichVu',
-				icon: 'ArrowsAltOutlined',
-			},
-			{
-				path: '/phan-hoi-danh-gia',
-				name: 'Phản hồi đánh giá',
-				component: './BAI_TH_3/BAI3/PhanHoi',
-				icon: 'ArrowsAltOutlined',
-			},
-		]
-	},
 
-	// DANH MUC HE THONG
-	// {
-	// 	name: 'DanhMuc',
-	// 	path: '/danh-muc',
-	// 	icon: 'copy',
-	// 	routes: [
-	// 		{
-	// 			name: 'ChucVu',
-	// 			path: 'chuc-vu',
-	// 			component: './DanhMuc/ChucVu',
-	// 		},
-	// 	],
-	// },
+	// Bài kiểm tra giữa kì Vũ Tiến Lộc
+	{
+		path: '/quan-ly-nhan-vien',
+		name: 'Quản lý nhân viên',
+		component: './QuanLyNhanVien',
+		icon: 'UserOutlined',
+	},
 
 	{
 		path: '/notification',

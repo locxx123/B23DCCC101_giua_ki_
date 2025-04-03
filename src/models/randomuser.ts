@@ -5,7 +5,7 @@ export default () => {
 	const [data, setData] = useState([]);
 	const [visible, setVisible] = useState<boolean>(false);
 	const [isEdit, setIsEdit] = useState<boolean>(false);
-	const [row, setRow] = useState<RandomUser.Record>();
+	const [row, setRow] = useState<Nhan_Vien.Record>();
 
 	const getDataUser = async () => {
 		const dataLocal: any = JSON.parse(localStorage.getItem('data') as any);
