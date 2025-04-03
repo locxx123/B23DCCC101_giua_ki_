@@ -1,28 +1,36 @@
 {
-	"nhan_vien": [
-		{
-			"ma_nhan_vien": "NV001",
-			"ho_va_ten": "Nguyễn Văn A",
-			"chuc_vu": "Quản lý",
-			"phong_ban": "Kinh doanh",
-			"luong": 15000000,
-			"trang_thai": "Đang làm việc"
-		},
-		{
-			"ma_nhan_vien": "NV001",
-			"ho_va_ten": "Nguyễn Văn A",
-			"chuc_vu": "Quản lý",
-			"phong_ban": "Kinh doanh",
-			"luong": 15000000,
-			"trang_thai": "Đang làm việc"
-		},
-		{
-			"ma_nhan_vien": "NV001",
-			"ho_va_ten": "Nguyễn Văn A",
-			"chuc_vu": "Quản lý",
-			"phong_ban": "Kinh doanh",
-			"luong": 15000000,
-			"trang_thai": "Đang làm việc"
-		}
-	]
+  "nhan_vien": [
+    {
+      "id": "NV001",
+      "ho_va_ten": "Nguyễn Văn A",
+      "chuc_vu": "Quản lý",
+      "phong_ban": "Kinh doanh",
+      "luong": 15000000,
+      "trang_thai": "Đang làm việc"
+    },
+    {
+      "id": "NV002",
+      "ho_va_ten": "Nguyễn Văn A",
+      "chuc_vu": "Quản lý",
+      "phong_ban": "Kinh doanh",
+      "luong": 13000000,
+      "trang_thai": "Đang làm việc"
+    },
+    {
+      "id": "NV003",
+      "ho_va_ten": "Nguyễn Văn A",
+      "chuc_vu": "Quản lý",
+      "phong_ban": "Kinh doanh",
+      "luong": 14000000,
+      "trang_thai": "Đang làm việc"
+    },
+    {
+      "id": "12f0",
+      "ho_va_ten": "hello",
+      "chuc_vu": "Nhân viên IT",
+      "phong_ban": "IT",
+      "luong": 1111111111,
+      "trang_thai": "Nghỉ phép"
+    }
+  ]
 }

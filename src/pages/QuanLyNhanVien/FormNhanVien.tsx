@@ -11,7 +11,7 @@ const FormNhanVien = () => {
         <Form
             onFinish={(values) => {
                 console.log('🚀 ~ Nhân viên:', values);
-                const index = data.findIndex((item: any) => item.ma_nhan_vien === row?.ma_nhan_vien);
+                const index = data.findIndex((item: any) => item.id === row?.id);
                 const dataTemp: Nhan_Vien.Record[] = [...data];
                 dataTemp.splice(index, 1, values);
                 const dataLocal = isEdit ? dataTemp : [values, ...data];
@@ -23,8 +23,8 @@ const FormNhanVien = () => {
                         console.log('🚀 ~ res:', res)   
                     });
                 }else {
-                    // Sửa nhân viên theo ma_nhan_vien
-                    editNhanVien({ id: row?.ma_nhan_vien, data: values }).then((res) => {
+                    // Sửa nhân viên theo id
+                    editNhanVien({ id: row?.id, data: values }).then((res) => {
                         console.log('🚀 ~ res:', res)   
                     });
                 }

@@ -17,7 +17,7 @@ const QuanLyNhanVien = () => {
     useEffect(() => {
         setFilteredData(
             data.filter((item: Nhan_Vien.Record) => 
-                item.ma_nhan_vien.toLowerCase().includes(searchText.toLowerCase()) ||
+                item.id.toLowerCase().includes(searchText.toLowerCase()) ||
                 item.ho_va_ten.toLowerCase().includes(searchText.toLowerCase()) ||
                 item.chuc_vu.toLowerCase().includes(searchText.toLowerCase()) ||
                 item.phong_ban.toLowerCase().includes(searchText.toLowerCase())
@@ -28,8 +28,8 @@ const QuanLyNhanVien = () => {
     const columns: IColumn<Nhan_Vien.Record>[] = [
         {
             title: 'Mã nhân viên',
-            dataIndex: 'ma_nhan_vien',
-            key: 'ma_nhan_vien',
+            dataIndex: 'id',
+            key: 'id',
             align: 'center',
             width: 200,
         },
