@@ -86,6 +86,8 @@ const QuanLyNhanVien = () => {
                     <Button
                         style={{ marginLeft: 10 }}
                         onClick={() => {
+                          const result = confirm("Bạn có chắc chắn muốn tiếp tục?");
+                          if(result) {
                             if (record.trang_thai === 'Thử việc' || record.trang_thai === 'Đã thôi việc') {
                                 deleteNhanVien(record?.ma_nhan_vien).then(() => {
                                     getDataUser();
@@ -93,6 +95,7 @@ const QuanLyNhanVien = () => {
                             } else {
                                 alert('Nhân viên này đang làm việc không thể xóa!');
                             }
+                          }
                         }}
                         type='primary'
                     >
